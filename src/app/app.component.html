@@ -1,0 +1,22 @@
+<h3>{{ name }}</h3>
+
+<div>
+  <ngx-charts-bubble-chart
+    [results]="chartData"
+    [xAxis]="true"
+    [yAxis]="true"
+    xAxisLabel="Years"
+    yAxisLabel="Population"
+    [showXAxisLabel]="true"
+    [showYAxisLabel]="true"
+    [showGridLines]="true"
+    [legend]="false"
+    [autoScale]="true"
+    [yScaleMin]="70"
+    [yScaleMax]="85"
+    [minRadius]="5"
+    [maxRadius]="20"
+    [tooltipDisabled]="true"
+  >
+  </ngx-charts-bubble-chart>
+</div>
